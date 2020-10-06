@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/dark.css" title="dark">
+    <link rel="alternate stylesheet" href="styles/light.css" title="light">
+    <script src="scripts/functions.js"></script>
+</head>
+
+<div id="mySidebar" class="sidebar" align="center">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
+    <backbutton type="button" style="text-align: center; font-size: 26px;"> <i class="fa fa-angle-left"
+            style="font-size:24px;"></i> </backbutton>
+    <a href="#"><i class="fa fa-sun-o" style="font-size:24px;"></i> \ <i class="fa fa-moon-o"
+            style="font-size:24px;"></i></a>
+    <label class="switch">
+        <input type="checkbox" onclick="check()" id="toggle">
+        <span class="slider round"></span>
+    </label>
+    <a href="#">Time</a>
+    <a href="#">Character Images</a>
+    <div align="center">
+        <img src="assets/usrimg.png" style="height: 70px;width: 70px; border-radius: 4em;">
+    </div>
+    <a href="#">Money Amount<br>1$</a>
+    <a href="#">Equipments</a>
+</div>
+
+<div id="main">
+    <buttonlist class="openbtn" onclick="openNav()">☰</buttonlist>
+</div>
+
+<body>
+    <br>
+    <div class="container-fluid" id="main_page">
+        <div class="column">
+            <h2 style="font-weight: 00; text-align: center; padding-top: 3.0mm;">
+                &nbsp&nbspMenu Options
+            </h2>
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <br>
+        <div class="column" align="center">
+            <input type="input" id="name" placeholder="  What's your name"></input>
+        </div>
+        <br>
+        <br>
+        <h2 style="font-weight: 00; text-align: center; padding-top: 3.0mm;">
+            &nbsp&nbspWhat Color are your eyes?
+        </h2>
+        <br>
+        <br>
+        <div class="container" style="margin-left: 300px;">
+            <div class="row">
+                <div class="col-sm-4">
+                    <label class="container">Blue
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="col-sm-4">
+                    <label class="container">Green
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="col-sm-4">
+                    <label class="container">Brown
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <h2 style="font-weight: 00; text-align: center; padding-top: 3.0mm;">
+            &nbsp&nbspWhat Color is your hair?
+        </h2>
+        <br>
+        <br>
+        <div class="container" style="margin-left: 270px;">
+            <div class="row">
+                <div class="col-sm-3">
+                    <label class="container">Brown
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="col-sm-3">
+                    <label class="container">Blonde
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="col-sm-3">
+                    <label class="container">Red
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="col-sm-3">
+                    <label class="container">Black
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container2" style="margin-left: 450px;">
+            <div class="row">
+                <div class="col-sm-4">
+                    <label class="container">Enable Body Hair
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="col-sm-4">
+                    <label class="container">Disable Body Hair
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <app-root></app-root>
+</body>
+
+</html>
